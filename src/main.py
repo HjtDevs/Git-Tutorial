@@ -6,7 +6,12 @@ def main():
     counter()
     counter()
     counter()
+    counter()
     counter(False)
+    counter(False)
+    counter(False)
+    counter()
+    counter()
     print(counter.count)
 
 if __name__ == '__main__':
