@@ -20,3 +20,5 @@ class Counter:
         print(f'Decreased to {self.count}')
 
 # V3 update incomming changes:
+    # 1- fixed performance issue in counter class
+    # 2- easier to use
