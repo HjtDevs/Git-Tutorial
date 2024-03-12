@@ -18,3 +18,7 @@ class Counter:
             return
         self.count += self.decreaser
         print(f'Decreased to {self.count}')
+
+
+    # 1- fixed performance issue in counter class
+    # 2- easier to use
