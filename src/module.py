@@ -10,5 +10,7 @@ class Counter:
     def __call__(self, increase: bool = True):
         if increase:
             self.count += self.increaser
+            print(f'Increased to {self.count}')
             return
         self.count += self.decreaser
+        print(f'Decreased to {self.count}')
