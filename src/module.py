@@ -19,6 +19,6 @@ class Counter:
         self.count += self.decreaser
         print(f'Decreased to {self.count}')
 
-# V3 update incomming changes:
+# V3 update incomming changes are:
     # 1- fixed performance issue in counter class
     # 2- easier to use
