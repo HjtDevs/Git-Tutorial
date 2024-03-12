@@ -1,6 +1,9 @@
 from datetime import datetime
 
 class Counter:
+    """
+    This is a counter class with increasment and decreasment methods
+    """
     def __init__(self, count: int | float = 0.0, increasement: int | float = 1.0, decreasement: int | float = -1.0) -> None:
         self.count = count
         self.increaser = increasement
