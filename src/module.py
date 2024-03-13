@@ -19,4 +19,4 @@ class Counter:
             return
         # count down
         self.count += self.decreaser
-        print(f'Decreased to {self.count}')
+        self.log.append(f'Decresed Value from {self.count + 1} to {self.count} at {datetime.now()}')  # adding count downs to log with time
